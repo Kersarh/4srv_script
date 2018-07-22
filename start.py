@@ -4,7 +4,6 @@ import os
 
 import fail2ban.fail2ban as f2b
 import squid.install_squid as squid
-import ts3srv.ts3srv as ts_inst
 import ufw.ufw as ufw
 import other.sys_func as sys_func
 
@@ -49,7 +48,6 @@ def inst():
         print("4. Fail2ban")
         print("5. UFW")
         print("--- Other ---")
-        print("6. TS3 server")
         print("0. Exit")
 
         i = input("\n  Select: ")
@@ -72,9 +70,6 @@ def inst():
 
         elif i == "5":
             ufw.main()
-
-        elif i == "6":
-            ts_inst.main()
 
         elif i == "0":
             print("Удачи!")
