@@ -1,12 +1,6 @@
 # 4srv_script
 Python script for new linux server (Debian, Ubuntu)
 
-### Install
-
-```bash
-
-```
-
 #### EN
 The script is designed for quick initial setup and installation of the software on the server under Linux (Debian, Ubuntu).
 
