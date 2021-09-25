@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 
-echo "Скрипт обновит систему и установит некторые дополнения."
+echo "Скрипт обновит систему и установит некоторые дополнения."
 echo -n "Продолжить? (y/n) "
 read item
 case "$item" in
@@ -25,7 +25,7 @@ apt-get install -y net-tools
 apt-get install -y p7zip-rar p7zip-full rar unrar arj cabextract file-roller zip unzip
 apt-get install -y nano mosh tmux htop git curl wget gcc build-essential make
 
-# Мультимедия кодеки
+# Мультимедиа кодеки
 apt-get install -y ubuntu-restricted-extras
 
 #
