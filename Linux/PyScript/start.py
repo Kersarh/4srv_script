@@ -1,5 +1,5 @@
 ﻿#!/usr/bin/python3
-""" Start scrypt for repo """
+""" Start script for repo """
 import os
 
 import fail2ban.fail2ban as f2b
@@ -12,7 +12,7 @@ def main():
     """ Main func """
     while True:
         os.system('cls' if os.name == 'nt' else 'clear')
-        print("========================================")
+        print("\n========================================")
         print("           Main Menu")
         print("========================================")
         print("  1 - System info")

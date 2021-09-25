@@ -8,18 +8,18 @@ set /p option1="[Warning]: [y/n]: "
 if /i not defined option1 (cls& goto start)
 if /i "%option1%"=="y" (echo yes& goto YES)
 if /i "%option1%"=="n" (echo no& goto NO)
-Echo Не правильно сделан выбор задания& pause& cls& goto start
+Echo РќРµ РїСЂР°РІРёР»СЊРЅРѕ СЃРґРµР»Р°РЅ РІС‹Р±РѕСЂ Р·Р°РґР°РЅРёСЏ& pause& cls& goto start
 :YES
-echo Вы выбрали да!
+echo Р’С‹ РІС‹Р±СЂР°Р»Рё РґР°!
 pause
 goto Next
 
 :NO
-echo Вы выбрали нет!
+echo Р’С‹ РІС‹Р±СЂР°Р»Рё РЅРµС‚!
 pause
 goto Next
 
 
 :Next
-echo Продолжение программы
+echo РџСЂРѕРґРѕР»Р¶РµРЅРёРµ РїСЂРѕРіСЂР°РјРјС‹
 pause

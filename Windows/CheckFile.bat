@@ -6,9 +6,9 @@ set file1="C:\Backup\MyFIle_%date%.txt"
 set kat1="D:\Backup\"
 
 set errlog="errLog_Check.bat.log"
-set viewlog="C:\Users\Àäìèíèñòðàòîð\Desktop\errLog.log"
+set viewlog="C:\Users\ÐÐ´Ð¼Ð¸Ð½Ð¸ÑÑ‚Ñ€Ð°Ñ‚Ð¾Ñ€\Desktop\errLog.log"
 
-if not exist %file1% echo Äàòà: %date% Âðåìÿ: %time% Îøèáêà: â ïàïêå %kat1% ôàéëû íå íàéäåíû >> %errlog%
+if not exist %file1% echo Ð”Ð°Ñ‚Ð°: %date% Ð’Ñ€ÐµÐ¼Ñ: %time% ÐžÑˆÐ¸Ð±ÐºÐ°: Ð² Ð¿Ð°Ð¿ÐºÐµ %kat1% Ñ„Ð°Ð¹Ð»Ñ‹ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ñ‹ >> %errlog%
 
 echo. >> %errlog% 
 copy %errlog% %viewlog% /a
