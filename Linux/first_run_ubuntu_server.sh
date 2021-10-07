@@ -15,7 +15,7 @@ apt-get install -y tree redis-server libssl-dev zlib1g-dev libbz2-dev libreadlin
 apt-get install -y nano mosh tmux htop git curl wget gcc build-essential make
 
 #
-apt-get install -y supervisor nginx
+apt-get install -y nginx
 
 # Локали
 export LANGUAGE=ru_RU.UTF-8
